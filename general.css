@@ -1,0 +1,35 @@
+/*Whole page settings*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Generic Element Settings*/
+
+	/* Define properties for all separator elements*/
+	.sep{
+		height: 5rem;
+	}
+
+	/*Set sizes for all generic titles*/
+	.generic-title{
+		text-align: center;
+		font-size: 5rem;
+		font-weight: bold;
+		margin: 2%;
+	}
+
+	/*Set sizes for all generic logos*/
+	.generic-logo{
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/*Enables Text Wrap*/
+	.text-wrap{
+		display: flex;
+		flex-wrap: wrap;
+	}
